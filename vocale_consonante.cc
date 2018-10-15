@@ -17,18 +17,17 @@ int main()
     carattere -= 'a' - 'A';
   }
 
-  switch ( carattere )
-    {
-      case 'A':
-      case 'E':
-      case 'I':
-      case 'O':
-      case 'U':
-        cout << "Il carattere e' una vocale" << endl;
-        break;
-      default:
-        cout << "Il carattere e' una consonante" << endl;
-    }
+  switch ( carattere ){
+    case 'A':
+    case 'E':
+    case 'I':
+    case 'O':
+    case 'U':
+      cout << "Il carattere e' una vocale" << endl;
+      break;
+    default:
+      cout << "Il carattere e' una consonante" << endl;
+  }
 
   return (0);
 }

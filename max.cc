@@ -18,14 +18,11 @@ int main()
 
   // cout << "Il massimo e' " << ( ( n1 > n2 ) ? n1 : n2 ) << endl;
 
-  if ( n1 > n2 )
-    {
-      cout << "Il massimo e': " << n1 << endl;
-    }
-  else 
-    {
-      cout << "Il massimo e': " << n2 << endl;
-    }
+  if ( n1 > n2 ){
+    cout << "Il massimo e': " << n1 << endl;
+  } else {
+    cout << "Il massimo e': " << n2 << endl;
+  }
 
   return (0);
 }
